@@ -3,60 +3,339 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Sri Varijala Venugopala Swamy Devasthanam</title>
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
 body{
-    font-family:Arial,sans-serif;
-    margin:0;
-    background:#fff8e1;
-    text-align:center;
+
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.55)),
+url("https://raw.githubusercontent.com/kushimommy-hash/Sri-Varijala-Venugopala-swamy-Devastanam---gopalayapally/main/IMG_20260201_073308546_HDR.jpg");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+color:white;
+
 }
+
 header{
-    background:#8B0000;
-    color:white;
-    padding:20px;
+
+text-align:center;
+padding:120px 20px;
+
 }
+
+header h1{
+
+font-size:52px;
+color:#FFD700;
+
+}
+
+header h2{
+
+margin-top:15px;
+font-size:25px;
+
+}
+
+nav{
+
+background:#8B0000;
+
+padding:15px;
+
+text-align:center;
+
+position:sticky;
+
+top:0;
+
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin:18px;
+
+font-weight:bold;
+
+}
+
+section{
+
+max-width:1100px;
+
+margin:35px auto;
+
+padding:30px;
+
+background:rgba(255,255,255,.12);
+
+backdrop-filter:blur(8px);
+
+border-radius:18px;
+
+}
+
+h3{
+
+color:#FFD700;
+
+margin-bottom:20px;
+
+}
+
 .gallery{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
-    padding:20px;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:20px;
+
 }
+
 .gallery img{
-    width:420px;
-    max-width:95%;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,.3);
+
+width:100%;
+
+border-radius:15px;
+
+box-shadow:0 0 15px black;
+
 }
+
+ul{
+
+padding-left:25px;
+
+line-height:35px;
+
+}
+
+button{
+
+background:#FFD700;
+
+border:none;
+
+padding:14px 28px;
+
+font-size:18px;
+
+font-weight:bold;
+
+border-radius:8px;
+
+cursor:pointer;
+
+margin-top:20px;
+
+}
+
+button:hover{
+
+background:orange;
+
+}
+
 footer{
-    background:#8B0000;
-    color:white;
-    padding:15px;
+
+text-align:center;
+
+background:#8B0000;
+
+padding:20px;
+
+margin-top:40px;
+
 }
+
 </style>
 
+<script>
+
+function blessings(){
+
+alert("🛕 May Sri Venugopala Swamy bless you and your family with happiness, health and prosperity.");
+
+}
+
+</script>
+
 </head>
+
 <body>
 
 <header>
+
 <h1>🛕 Sri Varijala Venugopala Swamy Devasthanam</h1>
-<p>Temple Photo Gallery</p>
+
+<h2>Gopalayapally • Andhra Pradesh</h2>
+
+<p>Welcome to the sacred abode of Lord Sri Venugopala Swamy</p>
+
+<button onclick="blessings()">Receive Blessings</button>
+
 </header>
 
-<section class="gallery">
+<nav>
 
-<img src="https://raw.githubusercontent.com/kushimommy-hash/Sri-Varijala-Venugopala-swamy-Devastanam---gopalayapally/main/IMG_20260125_173702281.jpg"
-     alt="Sri Varijala Venugopala Swamy Temple">
+<a href="#about">About</a>
 
-<img src="https://raw.githubusercontent.com/kushimommy-hash/Sri-Varijala-Venugopala-swamy-Devastanam---gopalayapally/main/IMG_20260201_073308546_HDR.jpg"
-     alt="Temple View">
+<a href="#gallery">Gallery</a>
+
+<a href="#sevas">Sevas</a>
+
+<a href="#timings">Timings</a>
+
+<a href="#festivals">Festivals</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section id="about">
+
+<h3>About the Temple</h3>
+
+<p>
+
+Sri Varijala Venugopala Swamy Devasthanam is a sacred Hindu temple dedicated to Lord Krishna in the divine form of Sri Venugopala Swamy. Devotees from nearby villages visit the temple to seek blessings, peace, prosperity and spiritual guidance. The temple celebrates important Vaishnava festivals with great devotion and offers daily worship to the Lord.
+
+</p>
+
+</section>
+
+<section id="gallery">
+
+<h3>Temple Gallery</h3>
+
+<div class="gallery">
+
+<img src="https://raw.githubusercontent.com/kushimommy-hash/Sri-Varijala-Venugopala-swamy-Devastanam---gopalayapally/main/IMG_20260125_173702281.jpg">
+
+<img src="https://raw.githubusercontent.com/kushimommy-hash/Sri-Varijala-Venugopala-swamy-Devastanam---gopalayapally/main/IMG_20260201_073308546_HDR.jpg">
+
+</div>
+
+</section>
+
+<section id="sevas">
+
+<h3>Daily Sevas</h3>
+
+<ul>
+
+<li>Suprabhata Seva</li>
+
+<li>Nitya Archana</li>
+
+<li>Abhishekam</li>
+
+<li>Sahasranama Archana</li>
+
+<li>Special Poojas</li>
+
+<li>Annadanam</li>
+
+<li>Harathi</li>
+
+</ul>
+
+</section>
+
+<section id="timings">
+
+<h3>Temple Timings</h3>
+
+<p>
+
+Morning : 6:00 AM – 12:00 PM
+
+<br><br>
+
+Evening : 5:00 PM – 8:30 PM
+
+</p>
+
+</section>
+
+<section id="festivals">
+
+<h3>Major Festivals</h3>
+
+<ul>
+
+<li>Sri Krishna Janmashtami</li>
+
+<li>Vaikuntha Ekadashi</li>
+
+<li>Brahmotsavam</li>
+
+<li>Ugadi</li>
+
+<li>Rama Navami</li>
+
+<li>Deepavali</li>
+
+<li>Karthika Masam Celebrations</li>
+
+</ul>
+
+</section>
+
+<section id="contact">
+
+<h3>Contact Us</h3>
+
+<p>
+
+📍 Address : Gopalayapally, YOUR_LOCATION
+
+<br><br>
+
+📞 Phone : YOUR_PHONE
+
+<br><br>
+
+✉ Email : YOUR_EMAIL
+
+</p>
 
 </section>
 
 <footer>
-<p>&copy; 2026 Sri Varijala Venugopala Swamy Devasthanam</p>
+
+<h3>🕉️ Sri Varijala Venugopala Swamy Devasthanam</h3>
+
+<p>
+
+"May Lord Sri Venugopala Swamy shower divine blessings upon all devotees."
+
+</p>
+
+<p>
+
+© 2026 All Rights Reserved
+
+</p>
+
 </footer>
 
 </body>
